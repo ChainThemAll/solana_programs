@@ -1,0 +1,20 @@
+[package]
+name = "rust_cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { workspace = true }
+borsh = { workspace = true }
+mpl-token-metadata = { workspace = true }
+solana-program = { workspace = true }
+spl-associated-token-account = { workspace = true }
+spl-token = { workspace = true }
+thiserror = { workspace = true }
+solana-program-test = "1.18.9"
+async-trait = { workspace = true }
+solana-sdk = { workspace = true }
+hello-world = { workspace = true }
+solana-rpc-client = "1.18.9"
