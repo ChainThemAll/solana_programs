@@ -25,3 +25,5 @@ solana program deploy /path/to/your_program.so
 
 # Run the test scripts in the project
  
+# If you have any confusion or cooperation requests, you can contact me via email 
+Alain <zhengze01@gmail.com>

@@ -1,12 +1,13 @@
 [workspace]
 resolver = "2"
+
 members = ["crates/hello_world", "crates/rust_cli"]
 
 [workspace.packages]
 name = "solana_program"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["Alain <zhengze01@gmail.com>"]
 members = [
     "crates/rust_cli",
     "crates/hello_world",
