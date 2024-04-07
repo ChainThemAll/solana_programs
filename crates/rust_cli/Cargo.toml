@@ -6,6 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+hello-world = { workspace = true }
+transfer-sol = { workspace = true }
+
 tokio = { workspace = true }
 borsh = { workspace = true }
 mpl-token-metadata = { workspace = true }
@@ -16,5 +19,4 @@ thiserror = { workspace = true }
 solana-program-test = "1.18.9"
 async-trait = { workspace = true }
 solana-sdk = { workspace = true }
-hello-world = { workspace = true }
 solana-rpc-client = "1.18.9"

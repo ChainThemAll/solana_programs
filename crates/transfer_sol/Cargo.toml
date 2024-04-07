@@ -1,5 +1,5 @@
 [package]
-name = "transfer_sol"
+name = "transfer-sol"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,8 +7,8 @@ edition = "2021"
 
 
 [dependencies]
-borsh = "0.9.3"
-borsh-derive = "0.9.1"
+borsh = "1.4.0"
+borsh-derive = "1.4.0"
 solana-program = "1.16.10"
 
 [lib]
