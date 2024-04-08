@@ -1,7 +1,6 @@
-use borsh::BorshSerialize;
-
 #[test]
 pub fn test_lamport_transfer() {
+    use borsh::BorshSerialize;
     const RPC_ADDR: &str = "http://127.0.0.1:8899";
     use solana_program::pubkey::Pubkey;
     use solana_rpc_client::rpc_client::RpcClient;
