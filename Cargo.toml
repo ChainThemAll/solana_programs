@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["crates/hello_world", "crates/rust_cli"]
+members = ["crates/hello_world", "crates/rust_cli", "crates/transfer_sol"]
 
 [workspace.packages]
 name = "solana_program"
@@ -11,10 +11,12 @@ authors = ["Alain <zhengze01@gmail.com>"]
 members = [
     "crates/rust_cli",
     "crates/hello_world",
+    "crates/transfer_sol",
 ] # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace.dependencies]
 hello-world = { path = "crates/hello_world" }
+transfer-sol = { path = "crates/transfer_sol" }
 
 tokio = { version = "1.37.0", features = ["full"] }
 borsh = { version = "1.4.0", features = ["std", "derive"] }

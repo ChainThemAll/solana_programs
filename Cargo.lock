@@ -3082,6 +3082,7 @@ dependencies = [
  "spl-token",
  "thiserror",
  "tokio",
+ "transfer-sol",
 ]
 
 [[package]]
@@ -5574,6 +5575,15 @@ dependencies = [
  "sharded-slab",
  "thread_local",
  "tracing-core",
+]
+
+[[package]]
+name = "transfer-sol"
+version = "0.1.0"
+dependencies = [
+ "borsh 1.4.0",
+ "borsh-derive 1.4.0",
+ "solana-program",
 ]
 
 [[package]]
